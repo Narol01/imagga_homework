@@ -4,7 +4,7 @@ import lombok.ToString;
 
 @ToString
 @Getter
-public class BackColorsDto {
+public class BackFrontImageColorsDto {
     private String closest_palette_color;
     private String closest_palette_color_parent;
     private double percent;
