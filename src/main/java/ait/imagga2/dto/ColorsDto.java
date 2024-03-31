@@ -10,7 +10,7 @@ import java.util.List;
 @ToString
 public class ColorsDto {
     private List<BackColorsDto> background_colors;
-    private List<ForegroundColor> foreground_colors;
-    private List<ImageColor> image_colors;
+    private List<BackColorsDto> foreground_colors;
+    private List<BackColorsDto> image_colors;
 
 }
