@@ -1,7 +1,5 @@
 package ait.imagga2.dto;
 
-import java.util.List;
-
 import lombok.Getter;
 import lombok.ToString;
 

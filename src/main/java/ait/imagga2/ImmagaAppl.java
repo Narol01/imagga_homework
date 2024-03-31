@@ -21,5 +21,7 @@ UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl("https://api.ima
         RequestEntity<String> requestEntity=new RequestEntity<>(headers, HttpMethod.GET,url);
         ResponseEntity<ResponseDto> response=restTemplate.exchange(requestEntity,ResponseDto.class);
         response.getBody().getResult().getColors().getBackground_colors().forEach(System.out::println);
+        response.getBody().getResult().getColors().getImage_colors().forEach(System.out::println);
+        response.getBody().getResult().getColors().getForeground_colors().forEach(System.out::println);
     }
 }
